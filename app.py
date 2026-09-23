@@ -215,7 +215,8 @@ fig = px.scatter(
     x = 'count',
     y = '양적하화물톤',
     hover_name = '항구청코드',
-    range_x= [0,4000]
+    range_x= [0,4000],
+    trendline = 'ols'
 )
 
 result_area1.plotly_chart(fig, use_container_width=True)
