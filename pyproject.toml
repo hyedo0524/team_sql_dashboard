@@ -1,0 +1,13 @@
+[project]
+name = "team-prj-prt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "plotly",
+    "streamlit",
+]
